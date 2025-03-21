@@ -164,7 +164,6 @@ export const App = () => {
         </p>
       </Dialog>
 
-      <Line options={options} data={chart_data} />
       <div className="inputs">
         <Panel
           header="Parameters"
@@ -234,6 +233,7 @@ export const App = () => {
           )}
         </Panel>
       </div>
+      <Line options={options} data={chart_data} />
     </main>
   );
 };
